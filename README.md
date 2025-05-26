@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Algorithm Visualizer
 
 An interactive visualization tool for algorithms built with D3.js. Currently supports Bubble Sort with the flexibility to add more algorithms in the future.
@@ -29,3 +30,7 @@ An interactive visualization tool for algorithms built with D3.js. Currently sup
 
 ## Contributing
 Feel free to contribute by adding new algorithms or improving the existing visualization. 
+=======
+# Algorithm-visualizer
+This is a simple project for visualising sorting algorithm.
+>>>>>>> e895f21633a7be194415baa1f6cf122aca6b494b
