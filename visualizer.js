@@ -128,7 +128,6 @@ class AlgorithmVisualizer {
 
     stepVisualization() {
         // Implement step-by-step visualization
-        // This will be implemented in the next iteration
     }
 }
 
