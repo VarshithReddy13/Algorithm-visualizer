@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Algorithm Visualizer</h1>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label for="array-size">Array Size:</label>
+                <input type="range" id="array-size" min="5" max="50" value="20">
+                <span id="size-value">20</span>
+            </div>
+            
+            <div class="control-group">
+                <label for="speed">Speed:</label>
+                <input type="range" id="speed" min="1" max="10" value="5">
+                <span id="speed-value">5</span>
+            </div>
+            
+            <div class="button-group">
+                <button id="generate">Generate New Array</button>
+                <button id="start">Start</button>
+                <button id="pause" disabled>Pause</button>
+                <button id="step" disabled>Step</button>
+            </div>
+        </div>
+
+        <div id="visualization"></div>
+    </div>
+    
+    <script src="visualizer.js"></script>
+</body>
+</html> 
